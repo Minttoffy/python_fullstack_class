@@ -1,0 +1,5 @@
+#task_1. Инвентаризация магазина (ввод значений, вывод не четных)
+print("Задание 1")
+products = input ("Ввод слов: ")
+prod = products.split()
+print(', '.join(prod[1::2]))
